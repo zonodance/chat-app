@@ -45,6 +45,11 @@
   padding: 20px 0 40px;
 }
 
+.room-name a {
+  text-decoration: none;
+  color: white;
+}
+
 .chat {
   background-color: #ffffff;
   width: calc(100% - 300px);
@@ -119,8 +124,8 @@
 
 .form-input {
   background-color: white;
-  display: flex;
   width: 100%;
+  display: flex;
 }
 
 .form-message {
